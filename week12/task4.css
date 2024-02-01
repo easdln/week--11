@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #899bb2;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+}
+.comment{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+.servis{
+    max-width: 1100px;
+    margin: 0 auto;
+    display:grid;
+    grid-template:  1fr / repeat(2, 1fr);
+}
+
+.chat{
+    font-size: 30px;
+    font-weight: 700;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.wrapper1>*:not(:last-child){
+    margin: 0 0 40px 0;
+}
+
+.input, #avatar, #comment{
+    width: 400px;
+    border: 0;
+    min-height: 30px;
+    padding: 10px;
+}
+
+
+label{
+    font-size: 20px;
+
+}
+.btn{
+    background: rgb(44, 57, 178);
+    border: 0;
+    padding: 10px;
+    width: 120px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.wrapper__chat{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    
+}
